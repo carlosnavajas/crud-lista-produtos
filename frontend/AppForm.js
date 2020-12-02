@@ -34,6 +34,7 @@ export default function AppForm({ route, navigation }) {
     if(id == undefined){
       axios.post('http://192.168.0.12:3001/api/v1/produtos', listItem ).then(response => {
           alert('Cadastro realizado com sucesso!');
+	  id = undefined;
           navigation.navigate("AppList", listItem);
         });
     } else {
