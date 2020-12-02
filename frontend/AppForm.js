@@ -31,16 +31,15 @@ export default function AppForm({ route, navigation }) {
   function handleButtonPress(){ 
 
     const listItem = {produto, tipo_produto, valor, quantidade, data_entrega};
-    if(id == undefined){
+    if(id == 0){
       axios.post('http://192.168.0.12:3001/api/v1/produtos', listItem ).then(response => {
           alert('Cadastro realizado com sucesso!');
-	  id = undefined;
           navigation.navigate("AppList", listItem);
         });
     } else {
       axios.post('http://192.168.0.12:3001/api/v1/produtos/' + id, listItem).then(response => {
           alert('Registro alterado com sucesso!');
-          id = undefined;
+          route.params._id = 0;
           navigation.navigate("AppList", listItem);
         });
     } 
