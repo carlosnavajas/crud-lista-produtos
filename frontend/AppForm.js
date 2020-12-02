@@ -7,7 +7,7 @@ import axios from 'axios';
 
 export default function AppForm({ route, navigation }) {
 
-  var id = route.params ? route.params._id : undefined;
+  var id = route.params ? route.params._id : 0;
   const [tipo_produto, setValue] = React.useState('vestuario');
   const [data_entrega, setDataEntrega] = useState(new Date());
   const [produto, setProduto] = useState(''); 
