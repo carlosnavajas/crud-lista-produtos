@@ -5,7 +5,7 @@ Naion Belas Juvenal
 # crud-lista-produtos
 Aplicação para trabalho da faculdade.
 O objetivo da aplicação é fazer fazer o CRUD de itens.
-CRUD é o acrônimo da expressão do idioma Inglês, Create (Criar), Read (Ler), Update (Atualizar) e Delete (Excluir).
+CRUD é o acrônimo da expressão do idioma Inglês, Create (Criar), Read (Ler), Update (Atualizar) e Delete (Deletar).
 
 # Instalação
 No backend 
