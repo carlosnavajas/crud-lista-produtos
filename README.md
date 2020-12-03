@@ -9,9 +9,11 @@ CRUD é o acrônimo da expressão do idioma Inglês, Create (Criar), Read (Ler),
 
 # Configuração
 Necessário configurar o número de IP do computador, neste caso o "Endereço IPv4" do computador que estiver executando a aplicação nos seguintes arquivos:
-
 Na pasta frontend, arquivo AppForm.js nas linhas 35 e 40.
 Na pasta frontend, arquivo AppList.js na linha 12.
+
+# Banco de dados
+A string de conexão com o banco de dados está na pasta backend > src > database no arquivo config.js.
 
 # Instalação
 No backend 
