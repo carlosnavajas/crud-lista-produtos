@@ -7,6 +7,12 @@ Aplicação para trabalho da faculdade.
 O objetivo da aplicação é fazer fazer o CRUD de itens.
 CRUD é o acrônimo da expressão do idioma Inglês, Create (Criar), Read (Ler), Update (Atualizar) e Delete (Deletar).
 
+# Configuração
+Necessário configurar o número de IP do computador, neste caso o "Endereço IPv4" do computador que estiver executando a aplicação nos seguintes arquivos:
+
+Na pasta frontend, arquivo AppForm.js nas linhas 35 e 40.
+Na pasta frontend, arquivo AppList.js na linha 12.
+
 # Instalação
 No backend 
 $ npm start
